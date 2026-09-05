@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+site/.next/
+site/out/
+
+# Pipeline runtime artefacts (large / regenerable)
+downloads/
+work/
+output/
+*.zip
+*.csv
+
+# Database & caches
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Geocoding cache (regenerable; may contain request payloads)
+geocode/cache.json
+
+# Generated site data payload (~28 MB; regenerable by build_data_json.py)
+site/public/data.json
+
+# Logs
+*.log
+logs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Secrets / env
+.env
+.env.local
+.env.*.local
